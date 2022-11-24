@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "qQcnfzY2rrG4YzTPQKb22eXAjP3RbDRQpxyG/m38DXU=",
+  "Source": "UploadService.Api",
+  "BasePath": "_content/UploadService.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "UploadService.Api\\wwwroot",
+      "Source": "UploadService.Api",
+      "ContentRoot": "C:\\Data\\Projects\\UploadService\\src\\UploadService.Api\\wwwroot\\",
+      "BasePath": "_content/UploadService.Api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Data\\Projects\\UploadService\\src\\UploadService.Api\\wwwroot\\index.html",
+      "SourceId": "UploadService.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Data\\Projects\\UploadService\\src\\UploadService.Api\\wwwroot\\",
+      "BasePath": "_content/UploadService.Api",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Data\\Projects\\UploadService\\src\\UploadService.Api\\wwwroot\\index.js",
+      "SourceId": "UploadService.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Data\\Projects\\UploadService\\src\\UploadService.Api\\wwwroot\\",
+      "BasePath": "_content/UploadService.Api",
+      "RelativePath": "index.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.js"
+    }
+  ]
+}

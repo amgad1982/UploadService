@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Data\\Projects\\UploadService\\src\\UploadService.Api\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Data\\Projects\\UploadService\\src\\UploadService.Api\\wwwroot\\index.js",
+      "PackagePath": "staticwebassets\\index.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.UploadService.Api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.UploadService.Api.props",
+      "PackagePath": "build\\UploadService.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.UploadService.Api.props",
+      "PackagePath": "buildMultiTargeting\\UploadService.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.UploadService.Api.props",
+      "PackagePath": "buildTransitive\\UploadService.Api.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

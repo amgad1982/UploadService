@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7A0A7F13-42B3-44EE-8739-2A6634A36EF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UploadService.Api", "src\UploadService.Api\UploadService.Api.csproj", "{A6BDCBDB-BFD5-4F8F-A826-348711EED175}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6BDCBDB-BFD5-4F8F-A826-348711EED175}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6BDCBDB-BFD5-4F8F-A826-348711EED175}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6BDCBDB-BFD5-4F8F-A826-348711EED175}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6BDCBDB-BFD5-4F8F-A826-348711EED175}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A6BDCBDB-BFD5-4F8F-A826-348711EED175} = {7A0A7F13-42B3-44EE-8739-2A6634A36EF8}
+	EndGlobalSection
+EndGlobal
