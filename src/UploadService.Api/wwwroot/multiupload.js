@@ -1,18 +1,22 @@
 const fileInput = document.getElementById("file");
-const uploadButton = document.getElementById("upload");
 const fileListctrol = document.getElementById("fileList");
 const uploadAllButton = document.getElementById("uploadAll");
 const uploadList=document.getElementById("uploadList");
 const fileList = [];
 
-uploadButton.addEventListener("click", () => {;
-    AddFile(fileInput.files[0]);
+
+fileInput.addEventListener("change", () => { 
+    AddFiles(fileInput.files);
+    fileInput.value = "";
 });
 
 //add file to the list
-const AddFile = (file) => {
-    fileList.push(file);
-    rowTemplate(file,fileList.length-1);
+const AddFiles = (files) => {
+    for (var i = 0; i < files.length; i++) {
+        fileList.push(files[i]);
+        rowTemplate(files[i],fileList.length-1);
+    }
+  
 }
 const rowTemplate = (file,index) => { 
     var row = document.createElement("tr");
@@ -41,7 +45,7 @@ const completeSessionUrl = "https://localhost:5251/upload/complete";
 const CHUNK_SIZE = 1024 * 1024 * 2;
 //methods
 
-const createUploadSession = async (file) => {
+const createUploadSession = async (file,index) => {
     const chunkCount = Math.ceil(file.size / CHUNK_SIZE);
     const response = await fetch(sessionUrl, {
         method: "POST",
@@ -53,7 +57,7 @@ const createUploadSession = async (file) => {
             totalParts: chunkCount
         })
     });
-    return await response.json();
+    return {session:await response.json(),file:file,index:index};
 }
 const uploadFile = async (file, session, index) => {
     //progress bar
@@ -98,7 +102,11 @@ const uploadFile = async (file, session, index) => {
 }
 
 //upload all files
-uploadAllButton.addEventListener("click",async  () => {
+uploadAllButton.addEventListener("click", async () => {
+    //remove all rows in the table fileListctrol
+    fileListctrol.innerHTML = "";
+    uploadList.innerHTML = "";
+    document.getElementById("uploadListContainer").style.display = "";
     //foreach file create upload row in uploadList table
     for (var i = 0; i < fileList.length; i++) {
         var row = document.createElement("tr");
@@ -117,13 +125,15 @@ uploadAllButton.addEventListener("click",async  () => {
         uploadList.appendChild(row);
     }
     //upload all files
+    var allPromises = [];
     for (var i = 0; i < fileList.length; i++) {
-         //create upload session
-        await createUploadSession(fileList[i]).then(async (session) => {
-            //upload file
-            await uploadFile(fileList[i], session,i).then(() => {
-                //alert("upload complete");
-            });
-        });
+       
+        allPromises.push(createUploadSession(fileList[i],i).then(async (result) => { 
+            await uploadFile(result.file, result.session, result.index);
+        }));
+        
     }
+    Promise.all(allPromises).then(() => {
+        alert("Upload complete");
+    });
 });
