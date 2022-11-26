@@ -1,32 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Data\\Projects\\UploadService\\src\\UploadService.Api\\UploadService.Api.csproj": {}
+    "/Users/amgad/MyData/Projects/UploadService/src/UploadService.Api/UploadService.Api.csproj": {}
   },
   "projects": {
-    "C:\\Data\\Projects\\UploadService\\src\\UploadService.Api\\UploadService.Api.csproj": {
+    "/Users/amgad/MyData/Projects/UploadService/src/UploadService.Api/UploadService.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Data\\Projects\\UploadService\\src\\UploadService.Api\\UploadService.Api.csproj",
+        "projectUniqueName": "/Users/amgad/MyData/Projects/UploadService/src/UploadService.Api/UploadService.Api.csproj",
         "projectName": "UploadService.Api",
-        "projectPath": "C:\\Data\\Projects\\UploadService\\src\\UploadService.Api\\UploadService.Api.csproj",
-        "packagesPath": "C:\\Users\\aawad\\.nuget\\packages\\",
-        "outputPath": "C:\\Data\\Projects\\UploadService\\src\\UploadService.Api\\obj\\",
+        "projectPath": "/Users/amgad/MyData/Projects/UploadService/src/UploadService.Api/UploadService.Api.csproj",
+        "packagesPath": "/Users/amgad/.nuget/packages/",
+        "outputPath": "/Users/amgad/MyData/Projects/UploadService/src/UploadService.Api/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\aawad\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/amgad/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -77,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }

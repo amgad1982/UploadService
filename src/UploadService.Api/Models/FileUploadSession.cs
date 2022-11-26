@@ -94,12 +94,10 @@ public class FileUploadSession
                  {
                      //load file content
                      var content = await System.IO.File.ReadAllBytesAsync(file);
-                     //append to final file
-                     using(var fileStream = new FileStream(Path.Combine("Uploads", FileName), FileMode.Append))
-                     {
-                         await fileStream.WriteAsync(content);
-                     }
-                 }
+                    //append to final file
+                    using var fileStream = new FileStream(Path.Combine("Uploads", FileName), FileMode.Append);
+                    await fileStream.WriteAsync(content);
+                }
 
                
                  //remove session folder

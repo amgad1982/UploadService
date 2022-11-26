@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qQcnfzY2rrG4YzTPQKb22eXAjP3RbDRQpxyG/m38DXU=",
+  "Hash": "iyhUhbXnHblaQim4azJs5xQoGLYjCvV9BykJukh8uUE=",
   "Source": "UploadService.Api",
   "BasePath": "_content/UploadService.Api",
   "Mode": "Default",
@@ -8,19 +8,19 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "UploadService.Api\\wwwroot",
+      "Name": "UploadService.Api/wwwroot",
       "Source": "UploadService.Api",
-      "ContentRoot": "C:\\Data\\Projects\\UploadService\\src\\UploadService.Api\\wwwroot\\",
+      "ContentRoot": "/Users/amgad/MyData/Projects/UploadService/src/UploadService.Api/wwwroot/",
       "BasePath": "_content/UploadService.Api",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Data\\Projects\\UploadService\\src\\UploadService.Api\\wwwroot\\index.html",
+      "Identity": "/Users/amgad/MyData/Projects/UploadService/src/UploadService.Api/wwwroot/index.html",
       "SourceId": "UploadService.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Data\\Projects\\UploadService\\src\\UploadService.Api\\wwwroot\\",
+      "ContentRoot": "/Users/amgad/MyData/Projects/UploadService/src/UploadService.Api/wwwroot/",
       "BasePath": "_content/UploadService.Api",
       "RelativePath": "index.html",
       "AssetKind": "All",
@@ -31,15 +31,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\index.html"
+      "OriginalItemSpec": "wwwroot/index.html"
     },
     {
-      "Identity": "C:\\Data\\Projects\\UploadService\\src\\UploadService.Api\\wwwroot\\index.js",
+      "Identity": "/Users/amgad/MyData/Projects/UploadService/src/UploadService.Api/wwwroot/multiupload.js",
       "SourceId": "UploadService.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Data\\Projects\\UploadService\\src\\UploadService.Api\\wwwroot\\",
+      "ContentRoot": "/Users/amgad/MyData/Projects/UploadService/src/UploadService.Api/wwwroot/",
       "BasePath": "_content/UploadService.Api",
-      "RelativePath": "index.js",
+      "RelativePath": "multiupload.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -48,7 +48,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\index.js"
+      "OriginalItemSpec": "wwwroot/multiupload.js"
+    },
+    {
+      "Identity": "/Users/amgad/MyData/Projects/UploadService/src/UploadService.Api/wwwroot/multiuploads.html",
+      "SourceId": "UploadService.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/amgad/MyData/Projects/UploadService/src/UploadService.Api/wwwroot/",
+      "BasePath": "_content/UploadService.Api",
+      "RelativePath": "multiuploads.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/multiuploads.html"
     }
   ]
 }
